@@ -92,3 +92,5 @@ RUN julia -e 'import Pkg; Pkg.update()' && \
     fix-permissions "${JULIA_PKGDIR}" "${CONDA_DIR}/share/jupyter"
 
 WORKDIR $HOME
+
+echo "Add dummy echo..."
